@@ -1,47 +1,162 @@
-# **🚤 Riverboat Simulator – Foundation Year Python Group Project**
+🚤 Riverboat Simulation App
+The Riverboat Simulation App is a Python-based program designed to help users understand the principles of vectors and projectiles by simulating a boat crossing a river. Developed during our Engineering Foundation Year at the University of Southampton Malaysia, this application aims to improve understanding of how a boat's trajectory is influenced by both its own velocity and the river’s current.
 
-This project is a **Python-based simulation** developed during our Foundation Year at University of Southampton Malaysia. The main focus is to model and visualize how a boat crosses a river under various flow conditions using principles of **vectors** and **projectile motion**.
 
----
 
-## 🧠 Background
 
-Inspired by challenges in maritime navigation, the simulator aims to help users—especially new engineering students—understand how a boat's trajectory is influenced by both its own velocity and the river’s current. This project combines real-world logic with fundamental physics concepts like:
 
-- **Vector addition**
-- **Right-angle trigonometry**
-- **Projectile motion without air resistance**
+🧠 Background
+Inspired by challenges in maritime navigation, this simulator addresses the difficulty in accurately predicting a boat's moving direction and arrival time due to unforeseen weather and wave conditions. It provides a safe alternative to real-world experiments for analyzing the relationship between vector components of a riverboat traveling across a river with current.
 
----
 
-## 🎯 Project Goals
 
-- Simulate riverboat motion affected by flow speed, direction, and angle.
-- Calculate and visualize total velocity, time to cross, and downstream displacement.
-- Offer an interactive and educational interface to strengthen understanding of vectors in motion.
 
----
 
-## 🖥 Features
+The project integrates fundamental physics concepts, including:
 
-- Adjustable parameters: river width, flow speed, boat speed, and angle.
-- Velocity vector visualization.
-- Challenge mode with target landing points.
-- Help screen and tooltips for guidance.
 
----
+Vectors: Quantities with both magnitude (size) and direction. In the simulator, users can control the boat's velocity and direction. The general equation used is 
 
-## 👥 Team
 
-This was a collaborative group project by 5 students (**Team 9**), and included:
+v=V 
+x
+​
+ i+V 
+y
+​
+ j, where i and j are unit vectors in the x- and y-directions.
 
-- UI/UX design (storyboards, personas)
-- Physics implementation
-- Python programming
-- Team progress tracking (burndown chart)
 
----
+Vector Addition: Used to combine two or more vectors. In the simulator, the boat's velocity relative to the water and the river's velocity are added to determine the boat's overall velocity relative to the shore. The equation used is 
 
-## 📚 Skills Used
 
-`Python` • `Math/Physics Simulation` • `User Interface Design` • `Team Collaboration` • `Agile Principles`
+v 
+total
+​
+ =v 
+boat
+​
+ +v 
+river
+​
+ .
+
+
+Right Triangle Trigonometry: Relates the ratios of the sides of a right triangle to the angles opposite them. Functions like sine, cosine, and tangent are employed. The magnitude of a vector 
+
+
+a=( 
+x
+y
+​
+ ) is calculated by ∣a∣[cite 
+s
+​
+ tart]= 
+x 
+2
+ +y 
+2
+ 
+
+​
+  (Pythagoras Theorem).
+
+🎯 Project Goals
+The primary goals set for this program were:
+
+To determine the effect of varying boat speeds on the crossing time and downstream distance for a boat heading straight across a river.
+
+To determine the effect of varying current speeds on the crossing time of the boat and the downstream distance for a boat heading straight across a river.
+
+To code a properly running and accurate simulation program, without incorporating air resistance.
+
+To develop a fully functioning system that can realistically help those planning to travel via boats arrive at their destination safer and faster by viewing a trip simulation.
+
+🖥 Features
+The application provides a user-friendly interface with several key features:
+
+
+Home Page: Provides access to three main sections: Simulation, Start Game, and Equations.
+
+
+Simulation Page: Allows users to input and adjust values such as speed of boat, direction of boat, flow control (river speed), and river width. An animation will be stimulated, displaying resultant speed, actual angle, and time spent. Users can also toggle the visibility of vector arrows.
+
+
+
+
+Start Game Page (Challenge Page): Users can click the "Challenge" button to get random values for river width and the y-coordinate of a challenge point. The goal is to calculate and adjust values to reach this point. A message box indicates success or failure after running the simulation.
+
+
+
+
+Equations Page: Displays the theory and equations for Basic Trigonometric Formula, helping users understand resultant speed, actual angle, and time spent on vectors.
+
+
+Help Page & Bottom-right Notebook Page: The Help Page provides answers to Frequently Asked Questions and useful tutorials. The bottom-right notebook page shows how different input values can be applied to equations.
+
+
+⚙️ Installation and Setup
+
+Download and Install: Download all essential Python files to your device.
+
+
+Install Prerequisites: Before launching, ensure you install the Pillow and Fraction programs via the command prompt.
+
+
+Pillow: https://www.geeksforgeeks.org/how-to-install-pil-on-windows/ 
+
+
+Fraction: https://pypi.org/project/Fraction/ 
+
+
+Launch: Launch the source code and utilize the interface.
+
+👥 Team
+This project was a collaborative effort by Team 9, consisting of:
+
+Lim Kai Shan 
+
+
+Yen Kai Jing 
+
+
+Yap En Tong 
+
+
+Lo Tzu Sheng 
+
+
+Vince Graceson Victor 
+
+
+The team's progression was tracked using a burndown chart.
+
+
+📚 Skills Used
+Python Programming
+
+Mathematical and Physics Simulation
+
+User Interface (UI) / User Experience (UX) Design (storyboards, personas, scenarios, user stories) 
+
+
+Team Collaboration
+
+Agile Principles (e.g., burndown chart) 
+
+
+⚠️ Disclaimer
+The information within this application is for general informational purposes only and was obtained from physicsclass.com. We offer no guarantees or claims as to its availability, appropriateness, completeness, correctness, reliability, or any other aspect. Users solely assume all risk if they rely on this material in any way.
+
+
+
+
+
+
+
+
+
+
+
+
