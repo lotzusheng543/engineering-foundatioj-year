@@ -1,9 +1,9 @@
-**🚤 Riverboat Simulation App**  
+# 🚤 Riverboat Simulation App
 The Riverboat Simulation App is a Python-based program designed to help users, particularly Engineering Foundation Year students, understand the concepts of vectors and projectiles by simulating a boat crossing a river. The application aims to enhance understanding of how different forces result in varying velocities and how to predict a boat's movement and arrival time.
 
 ---
 
-**🧠 Background**  
+## 🧠 Background
 Inspired by challenges in maritime navigation, this simulator addresses the difficulty in accurately predicting a boat's moving direction and arrival time due to unforeseen weather and wave conditions. It provides a safe alternative to real-world experiments for analyzing the relationship between vector components of a riverboat traveling across a river with current.
 
 The project integrates fundamental physics concepts, including:
@@ -21,7 +21,7 @@ The program defines the top of the screen as North, with East, South, and West a
 
 ---
 
-**🎯 Project Goals**
+## 🎯 Project Goals
 
 - To determine the effect of varying boat speeds on the crossing time and downstream distance for a boat which heads straight across a river.  
 - To determine the effect of varying current speeds on the crossing time of the boat and the downstream distance for a boat which heads straight across a river.  
@@ -30,7 +30,7 @@ The program defines the top of the screen as North, with East, South, and West a
 
 ---
 
-**🖥 Features**
+## 🖥 Features
 
 - **Home Page**: Provides access to three main sections: Simulation, Start Game, and Equations.  
 - **Simulation Page**: Allows users to input and adjust values such as speed of boat, direction of boat, flow control (river speed), and river width. An animation will be stimulated, displaying resultant speed, actual angle, and time spent. Users can also toggle the visibility of vector arrows.  
@@ -40,7 +40,7 @@ The program defines the top of the screen as North, with East, South, and West a
 
 ---
 
-**⚙️ Installation and Setup**
+## ⚙️ Installation and Setup
 
 - **Download and Install**: Download all essential Python files to your device.  
 - **Install Prerequisites**: Before launching, ensure you install the Pillow and Fraction programs via the command prompt.  
@@ -50,7 +50,7 @@ The program defines the top of the screen as North, with East, South, and West a
 
 ---
 
-**👥 Team**  
+## 👥 Team
 This project was a collaborative effort by *Team 9*, consisting of:
 
 - *Lim Kai Shan*     
@@ -61,7 +61,7 @@ The team's progression was tracked using a burndown chart.
 
 ---
 
-**📚 Skills Used**
+## 📚 Skills Used
 
 - Python Programming  
 - Mathematical and Physics Simulation  
@@ -71,6 +71,6 @@ The team's progression was tracked using a burndown chart.
 
 ---
 
-**⚠️ Disclaimer**  
+## ⚠️ Disclaimer
 The information within this application is for general informational purposes only and was obtained from physicsclass.com. We offer no guarantees or claims as to its availability, appropriateness, completeness, correctness, reliability, or any other aspect. Users solely assume all risk if they rely on this material in any way.
 
